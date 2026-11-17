@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shikaku — политика конфиденциальности</title>
+<title>Kakomi — политика конфиденциальности</title>
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -31,86 +31,140 @@
 <body>
 <nav><a href="#ru">Русский</a><a href="#en">English</a></nav>
 <section id="ru" lang="ru">
-<h1>Политика конфиденциальности Shikaku</h1>
-<p>Действует с 9 сентября 2026 года.</p>
+<h1>Политика конфиденциальности Kakomi</h1>
+<p>Действует с 17 ноября 2026 года.</p>
 <h2>Коротко</h2>
-<p>Shikaku — головоломка, которая работает офлайн. У неё нет аккаунтов, нет сервера и нет аналитики. Всё, что вы наиграли, лежит на вашем устройстве и никуда не отправляется.</p>
-<p>Единственное, что выходит наружу, — реклама. Её показывает Google AdMob, и она собирает данные о вашем устройстве. Об этом ниже, подробно.</p>
+<p>Kakomi — головоломка, которая работает офлайн. У неё нет аккаунтов, нет сервера и нет своей аналитики. Всё, что вы наиграли, лежит на вашем устройстве, и приложение никуда это не отправляет.</p>
+<p>В сеть приложение выходит только ради рекламы и покупки. Рекламу показывает Google AdMob, и она собирает данные о вашем устройстве и о том, как вы пользуетесь приложением. Покупку проводит магазин. Об этом ниже, подробно.</p>
 <h2>Кто отвечает за приложение</h2>
-<p>Разработчик Shikaku. Связаться: &lt;адрес для связи&gt;.</p>
+<p>Разработчик Kakomi. Связаться: &lt;адрес для связи&gt;.</p>
 <h2>Что хранится на вашем устройстве</h2>
-<p>Приложение хранит на устройстве и только там:</p>
+<p>Приложение хранит на устройстве:</p>
 <ul>
 <li>пройденные уровни и лучшее время по каждому;</li>
 <li>результаты ежедневных головоломок и серию;</li>
 <li>статистику по размерам полей и выданные достижения;</li>
-<li>недорешённую доску, чтобы вернуть вас туда, где вы остановились;</li>
-<li>настройки: тема, вибрация, режим для дальтоников, напоминание;</li>
+<li>недорешённые доски, чтобы вернуть вас туда, где вы остановились;</li>
+<li>настройки: тема, вибрация, напоминание;</li>
 <li>счётчики подсказок и частоты показа рекламы;</li>
 <li>отметку о том, что покупка «убрать рекламу» сделана.</li>
 </ul>
-<p>Эти данные не покидают устройство. Мы их не видим, не собираем и не можем получить. Удалите приложение — они исчезнут вместе с ним.</p>
+<p>Приложение эти данные никуда не отправляет. Они не покидают устройство, если не считать резервной копии и переноса на новый телефон, — их делает сама система. Мы эти данные не видим, не собираем и не можем получить.</p>
+<p>Если на телефоне включено резервное копирование, система сохраняет копию этих данных в вашем облачном аккаунте: Google на Android, iCloud на iPhone и iPad. Из копии данные можно вернуть на новом телефоне, а на Android они возвращаются и после переустановки игры. При переезде на новый телефон система может перенести их и напрямую, без облака. Всё это происходит между вашими устройствами и вашим аккаунтом, нам эти данные недоступны; копией управляют в настройках резервного копирования. Удалите приложение — данные исчезнут с устройства.</p>
 <h2>Реклама</h2>
-<p>В приложении показывается реклама Google AdMob. Чтобы её подобрать и посчитать, Google собирает данные о вашем устройстве: рекламный идентификатор (Advertising ID на Android, IDFA на iOS), IP-адрес, сведения об устройстве и операционной системе, взаимодействия с объявлениями.</p>
-<p>Эти данные собирает и обрабатывает Google, а не мы. Мы не получаем от Google ни этих данных, ни отчётов о конкретных пользователях — только обезличенную статистику показов.</p>
+<p>В приложении показывается реклама Google AdMob. Через рекламный SDK, встроенный в приложение, Google собирает:</p>
+<ul>
+<li>идентификаторы: на Android — рекламный идентификатор (Advertising ID), App Set ID и идентификаторы, связанные с аккаунтами, в которые выполнен вход на телефоне (если такие есть); на iOS — IDFA (только с вашего разрешения) и идентификаторы, привязанные к приложению или разработчику, например IDFV;</li>
+<li>IP-адрес — по нему Google определяет примерное местоположение;</li>
+<li>сведения об устройстве и операционной системе;</li>
+<li>действия в приложении и с рекламой: запуски, нажатия, просмотры видео;</li>
+<li>диагностику: время запуска, зависания, расход батареи, а на iOS — ещё и отчёты о сбоях.</li>
+</ul>
+<p>Google использует эти данные, чтобы подбирать, показывать и считать рекламу, для аналитики и защиты от мошенничества, а на iOS — ещё и чтобы улучшать свой SDK.</p>
+<p>Эти данные получает Google. Он может передавать их своим рекламным партнёрам — компаниям, которые помогают подобрать рекламу и посчитать показы; там, где показывается форма согласия Google, их список есть в ней. Нам Google не передаёт ни этих данных, ни отчётов о конкретных пользователях — только сводную статистику показов.</p>
+<p>Google и его рекламные партнёры защищают эти данные не хуже, чем описано в этой политике: Google — по своей политике конфиденциальности, партнёры — по принятым ими правилам Google об использовании данных.</p>
 <p>Как это регулируется:</p>
 <ul>
-<li><strong>Персонализация.</strong> Перед первой рекламой приложение спрашивает согласие через форму Google (UMP). Отказ рекламу не отменяет — она станет неперсонализированной, то есть подобранной без ваших данных.</li>
-<li><strong>iOS.</strong> Дополнительно система спрашивает разрешение на отслеживание (ATT). Без разрешения приложение не получает IDFA.</li>
-<li><strong>Изменить решение</strong> можно в любой момент: на iOS — «Настройки → Приватность и безопасность → Отслеживание», на Android — «Настройки → Google → Реклама», где рекламный идентификатор можно сбросить или удалить.</li>
+<li><strong>Согласие.</strong> Там, где закон требует согласия, — в Европейской экономической зоне (ЕЭЗ: ЕС, Исландия, Лихтенштейн, Норвегия), Великобритании и Швейцарии — приложение до первой рекламы показывает форму согласия Google (UMP). SDK Google хранит ваш выбор на устройстве и прикладывает его к запросам рекламы. В других странах формы Google нет, и реклама может быть персонализированной без отдельного вопроса; ограничить это можно в настройках телефона — см. ниже.</li>
+<li><strong>Отказ</strong> в форме рекламу не отменяет: она станет неперсонализированной — её подберут не по вашим интересам, а по содержанию игры и примерному местоположению, которое Google определяет по IP-адресу. Часть данных из списка выше Google получает и тогда: чтобы доставить и посчитать объявления, ограничить частоту показов и защититься от мошенничества.</li>
+<li><strong>iOS.</strong> Дополнительно, в любой стране, система спрашивает разрешение на отслеживание (ATT). Без разрешения приложение не получает IDFA.</li>
+<li><strong>Изменить решение</strong> можно в любой момент. Согласие, данное в форме Google, меняется или отзывается в самом приложении: «Настройки» → «Настройки конфиденциальности». Этот пункт есть там же, где форма, — в ЕЭЗ, Великобритании и Швейцарии. Разрешение на отслеживание на iOS — «Настройки» → «Конфиденциальность и безопасность» → «Отслеживание» (в iOS 15 — «Настройки» → «Конфиденциальность» → «Отслеживание»). На Android рекламный идентификатор можно сбросить или удалить: «Настройки» → «Конфиденциальность» → «Реклама»; если меню на вашем телефоне устроено иначе, найдите пункт «Реклама» поиском по настройкам.</li>
 </ul>
-<p>Что именно делает с данными Google, описано в его политике: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> и <a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></p>
-<p>Разовая покупка «убрать рекламу» отключает межстраничную рекламу. После неё остаётся только вознаграждаемая — та, что показывается по вашему явному нажатию ради подсказки.</p>
+<p>Как Google использует данные из приложений со своей рекламой и как этим управлять, описано на его страницах:</p>
+<ul>
+<li><a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> — для пользователей;</li>
+<li><a href="https://business.safety.google/privacy/">https://business.safety.google/privacy/</a> — как Google обрабатывает персональные данные, страница для бизнеса;</li>
+<li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> — общая политика конфиденциальности Google.</li>
+</ul>
+<p>Разовая покупка «убрать рекламу» отключает межстраничную рекламу. После неё остаётся только вознаграждаемая — та, что показывается по вашему явному нажатию ради подсказки. Рекламный SDK Google при этом продолжает работать: он запускается вместе с приложением, а когда бесплатные подсказки на сегодня кончились, заранее загружает вознаграждаемое объявление. Поэтому данные из списка выше Google получает и после покупки.</p>
 <h2>Покупки</h2>
 <p>Покупку «убрать рекламу» проводят App Store и Google Play. Платёжные данные идут к ним напрямую; мы их не видим и не храним. На устройстве остаётся одна отметка: покупка сделана.</p>
 <h2>Уведомления</h2>
 <p>Напоминание о новой ежедневной головоломке — локальное: его планирует само приложение на вашем устройстве. Оно выключено по умолчанию, включается вами и не отправляет ничего наружу.</p>
+<h2>Безопасность</h2>
+<p>Данные игры лежат в хранилище приложения, к которому другие приложения доступа не имеют, — так устроены Android и iOS. Рекламный SDK Google передаёт данные по зашифрованному соединению (TLS).</p>
 <h2>Дети</h2>
 <p>Приложение не предназначено для детей и не помечено как ориентированное на детей. Мы сознательно не собираем данные о возрасте.</p>
 <h2>Ваши права</h2>
-<p>Данных, которые мы храним о вас, не существует, поэтому запрашивать, исправлять или удалять у нас нечего. Всё, что связано с вашей игрой, удаляется удалением приложения. Данные, собранные рекламой, регулируются на стороне Google — ссылки выше.</p>
+<p>Данных, которые мы храним о вас, не существует, поэтому запрашивать, исправлять или удалять у нас нечего. Данные игры удаляются с устройства вместе с приложением, а резервной копией телефона вы управляете в её настройках. Данные, собранные рекламой, хранит и обрабатывает Google — ссылки выше; если вы в ЕЭЗ, Великобритании или Швейцарии, ваши права перечислены в следующем разделе.</p>
+<h2>Если вы в ЕЭЗ, Великобритании или Швейцарии</h2>
+<p>Персонализированная реклама показывается только с вашего согласия в форме Google. Давать его не обязательно: игра работает и без него, меняется только реклама. Отзыв согласия не делает незаконным то, что было до него.</p>
+<p>Остальное — доставку и подсчёт рекламы, защиту от мошенничества — Google и его партнёры ведут на основании законного интереса: нашего (реклама оплачивает бесплатную игру) и своего. Это объяснено в той же форме Google, и против части такой обработки, например подсчёта эффективности рекламы, там можно возразить.</p>
+<p>Google может обрабатывать данные за пределами вашей страны, например в США. Как он защищает такую передачу и сколько хранит данные, описано здесь:</p>
+<ul>
+<li><a href="https://policies.google.com/privacy/frameworks">https://policies.google.com/privacy/frameworks</a> — передача данных;</li>
+<li><a href="https://policies.google.com/technologies/retention">https://policies.google.com/technologies/retention</a> — сроки хранения.</li>
+</ul>
+<p>Вы вправе запросить у Google доступ к этим данным, их исправление, удаление, ограничение обработки и перенос, возразить против обработки, а также пожаловаться в орган по защите данных своей страны.</p>
 <h2>Изменения</h2>
 <p>Если политика изменится, здесь появится новая дата вступления в силу. Если изменение будет существенным — например, приложение начнёт собирать что-то новое, — мы скажем об этом в описании обновления.</p>
 </section>
 <section id="en" lang="en">
-<h1>Shikaku Privacy Policy</h1>
-<p>Effective 9 September 2026.</p>
+<h1>Kakomi Privacy Policy</h1>
+<p>Effective 17 November 2026.</p>
 <h2>In short</h2>
-<p>Shikaku is a puzzle game that works offline. It has no accounts, no server and no analytics. Everything you play stays on your device and is never sent anywhere.</p>
-<p>The one thing that leaves the device is advertising. Ads are served by Google AdMob, and they collect data about your device. Details below.</p>
+<p>Kakomi is a puzzle game that works offline. It has no accounts, no server and no analytics of its own. Your progress is stored on your device, and the app never sends it anywhere.</p>
+<p>The app goes online only for advertising and the purchase. Ads are served by Google AdMob, and they collect data about your device and how you use the app. The purchase is handled by the store. Details below.</p>
 <h2>Who is responsible</h2>
-<p>The developer of Shikaku. Contact: &lt;contact address&gt;.</p>
+<p>The developer of Kakomi. Contact: &lt;contact address&gt;.</p>
 <h2>What is stored on your device</h2>
-<p>The app stores on your device, and only there:</p>
+<p>The app stores on your device:</p>
 <ul>
 <li>levels you have solved and your best time for each;</li>
 <li>daily puzzle results and your streak;</li>
 <li>statistics per grid size and the achievements you earned;</li>
-<li>an unfinished board, so you can pick up where you left off;</li>
-<li>settings: theme, haptics, colour-blind mode, reminder;</li>
+<li>unfinished boards, so you can pick up where you left off;</li>
+<li>settings: theme, haptics, reminder;</li>
 <li>hint and ad-frequency counters;</li>
 <li>a flag recording that the "remove ads" purchase was made.</li>
 </ul>
-<p>This data never leaves the device. We do not see it, do not collect it and cannot obtain it. Delete the app and it goes with it.</p>
+<p>The app sends this data nowhere. It never leaves the device, except in backups and transfers to a new phone, which the system itself handles. We do not see this data, do not collect it and cannot obtain it.</p>
+<p>If backup is turned on, the system saves a copy of this data to your cloud account: Google on Android, iCloud on iPhone and iPad. The data can be restored from that copy on a new phone, and on Android it also comes back after you reinstall the game. When you move to a new phone, the system may also transfer the data directly, without the cloud. All of this happens between your devices and your account, and we have no access to the data; the backup is managed in your backup settings. Delete the app and the data is removed from the device.</p>
 <h2>Advertising</h2>
-<p>The app shows Google AdMob advertising. To select and measure ads, Google collects data about your device: the advertising identifier (Advertising ID on Android, IDFA on iOS), IP address, device and operating system information, and your interactions with ads.</p>
-<p>This data is collected and processed by Google, not by us. We receive neither that data nor reports about individual users from Google — only aggregate impression statistics.</p>
+<p>The app shows Google AdMob advertising. Through the ads SDK built into the app, Google collects:</p>
+<ul>
+<li>identifiers: on Android, the advertising identifier (Advertising ID), the App Set ID and, if accounts are signed in on the phone, identifiers related to them; on iOS, the IDFA (only with your permission) and identifiers tied to the app or its developer, such as the IDFV;</li>
+<li>your IP address, from which Google estimates your approximate location;</li>
+<li>device and operating system information;</li>
+<li>actions in the app and with ads: launches, taps, video views;</li>
+<li>diagnostics: launch time, hangs, energy use and, on iOS, crash logs.</li>
+</ul>
+<p>Google uses this data to select, show and measure ads, for analytics and fraud prevention and, on iOS, to improve its SDK.</p>
+<p>This data goes to Google. Google may share it with its advertising partners — companies that help choose ads and count impressions; where Google's consent form is shown, it lists them. Google passes neither that data nor reports about individual users to us — only aggregate impression statistics.</p>
+<p>Google and its advertising partners protect this data at least as well as this policy describes: Google under its privacy policy, the partners under Google's data use rules, which they have accepted.</p>
 <p>How this is governed:</p>
 <ul>
-<li><strong>Personalisation.</strong> Before the first ad, the app asks for consent through Google's form (UMP). Declining does not remove ads — they become non-personalised, that is, chosen without your data.</li>
-<li><strong>iOS.</strong> The system additionally asks for tracking permission (ATT). Without permission the app does not receive the IDFA.</li>
-<li><strong>Change your mind</strong> at any time: on iOS via Settings → Privacy &amp; Security → Tracking; on Android via Settings → Google → Ads, where the advertising identifier can be reset or deleted.</li>
+<li><strong>Consent.</strong> Where the law requires consent — in the European Economic Area (EEA: the EU, Iceland, Liechtenstein, Norway), the UK and Switzerland — the app shows Google's consent form (UMP) before the first ad. Google's SDK stores your choice on the device and attaches it to ad requests. Elsewhere Google's form is not shown, and ads may be personalised without a separate question; you can limit this in your phone's settings — see below.</li>
+<li><strong>Declining</strong> in the form does not remove ads: they become non-personalised — based not on your interests but on the game's content and your approximate location, which Google estimates from your IP address. Even then Google receives some of the data listed above, to deliver and count ads, limit how often they are shown and prevent fraud.</li>
+<li><strong>iOS.</strong> In every country, the system additionally asks for tracking permission (ATT). Without permission the app does not receive the IDFA.</li>
+<li><strong>Change your mind</strong> at any time. Consent given in Google's form can be changed or withdrawn in the app itself: Settings → Privacy settings (the app's menus are currently in Russian: «Настройки» → «Настройки конфиденциальности»). This item appears in the same places as the form — the EEA, the UK and Switzerland. Tracking permission on iOS is under Settings → Privacy &amp; Security → Tracking (on iOS 15: Settings → Privacy → Tracking). On Android, the advertising identifier can be reset or deleted under Settings → Privacy → Ads; if your phone's menu is different, search Settings for "Ads".</li>
 </ul>
-<p>What Google does with the data is described in its policies: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and <a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></p>
-<p>The one-time "remove ads" purchase turns off interstitial advertising. What remains is the rewarded ad only — the one shown when you explicitly tap to watch it in exchange for a hint.</p>
+<p>How Google uses data from apps that show its ads, and how you can control it, is described on its pages:</p>
+<ul>
+<li><a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> — for users;</li>
+<li><a href="https://business.safety.google/privacy/">https://business.safety.google/privacy/</a> — how Google processes personal information, a page for businesses;</li>
+<li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> — Google's general privacy policy.</li>
+</ul>
+<p>The one-time "remove ads" purchase turns off interstitial advertising. What remains is the rewarded ad only — the one shown when you explicitly tap to watch it in exchange for a hint. Google's ads SDK keeps running, though: it starts with the app and, once today's free hints are used up, loads a rewarded ad in advance. So Google still receives the data listed above after the purchase.</p>
 <h2>Purchases</h2>
 <p>The "remove ads" purchase is handled by the App Store and Google Play. Payment details go to them directly; we neither see nor store them. One flag remains on your device: the purchase was made.</p>
 <h2>Notifications</h2>
 <p>The reminder about a new daily puzzle is local: the app schedules it on your device. It is off by default, turned on by you, and sends nothing anywhere.</p>
+<h2>Security</h2>
+<p>Game data is kept in the app's own storage, which other apps cannot access — Android and iOS enforce this. Google's ads SDK sends data over an encrypted connection (TLS).</p>
 <h2>Children</h2>
 <p>The app is not directed at children and is not marked as child-directed. We deliberately collect no age information.</p>
 <h2>Your rights</h2>
-<p>There is no data we hold about you, so there is nothing to request, correct or delete on our side. Everything tied to your play is removed by uninstalling the app. Data collected by advertising is governed on Google's side — see the links above.</p>
+<p>There is no data we hold about you, so there is nothing to request, correct or delete on our side. Game data is removed from the device along with the app, and your phone's backup is managed in its own settings. Data collected by advertising is held and processed by Google — see the links above; if you are in the EEA, the UK or Switzerland, your rights are listed in the next section.</p>
+<h2>If you are in the EEA, the UK or Switzerland</h2>
+<p>Personalised ads are shown only with your consent in Google's form. Giving it is optional: the game works without it; only the ads change. Withdrawing consent does not make earlier processing unlawful.</p>
+<p>The rest — delivering and counting ads, preventing fraud — Google and its partners carry out on the basis of legitimate interest: ours (ads pay for a free game) and their own. The same Google form explains this and lets you object to some of this processing, such as measuring ad performance.</p>
+<p>Google may process the data outside your country, for example in the US. These pages explain how Google protects such transfers and how long it keeps data:</p>
+<ul>
+<li><a href="https://policies.google.com/privacy/frameworks">https://policies.google.com/privacy/frameworks</a> — data transfers;</li>
+<li><a href="https://policies.google.com/technologies/retention">https://policies.google.com/technologies/retention</a> — retention periods.</li>
+</ul>
+<p>You have the right to ask Google for access to this data, its correction, deletion, restriction of processing and portability, to object to processing, and to complain to the data protection authority in your country.</p>
 <h2>Changes</h2>
 <p>If this policy changes, a new effective date will appear here. If a change is material — for example, the app starts collecting something new — we will say so in the update notes.</p>
 </section>
